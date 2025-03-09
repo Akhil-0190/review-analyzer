@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Review Analyzer</h1>
+            <p>Uncover the authenticity of product reviews with ease</p>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" id="product-url" placeholder="Enter Flipkart product URL">
+            <button id="analyze-btn">Analyze</button>
+        </div>
+
+        <!-- Loading Section -->
+        <div id="loading">
+            <p id="loading-text">Processing your request...</p>
+            <div class="spinner"></div>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result">
+            <div id="chart-container">
+                <canvas id="fake-review-chart"></canvas>
+            </div>
+            <p id="message"></p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>Made with ❤️ by <a href="#">Akhil T V</a></p>
+        </div>
+    </div>
+
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

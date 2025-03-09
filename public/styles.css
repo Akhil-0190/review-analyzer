@@ -1,0 +1,136 @@
+/* Global Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Header Section */
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Input Section */
+.input-section {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    max-width: 500px;
+}
+
+.input-section button {
+    padding: 15px 30px;
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.input-section button:hover {
+    background: #ff9900;
+}
+
+/* Loading Section */
+#loading {
+    margin: 20px 0;
+    display: none;
+    text-align: center;
+}
+
+#loading-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.spinner {
+    margin: 15px auto;
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    border-top: 6px solid #ffcc00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Result Section */
+#result {
+    display: none;
+    margin-top: 30px;
+}
+
+#chart-container {
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+}
+
+#message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Extra Visual Elements */
+.footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
