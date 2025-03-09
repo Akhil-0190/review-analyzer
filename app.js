@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 
-const pythonPath = "C:\\Users\\Appu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe";
+const pythonPath = "";
 let currentStatus = ''; // Variable to store the current status
 
 // Route for processing reviews
