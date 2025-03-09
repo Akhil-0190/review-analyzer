@@ -1,4 +1,4 @@
-# Review Analyzer
+# Review Analyzer for E-Commerce Platforms
 
 Uncover the authenticity of product reviews with ease! 🚀  
 
