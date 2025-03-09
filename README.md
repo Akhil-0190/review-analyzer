@@ -18,10 +18,10 @@ This tool analyzes product reviews from e-commerce websites like Flipkart to dis
 ## Screenshots
 
 ### Processing the Request
-![Processing Screen](path/to/processing-image.png)
+![Processing Screen](https://github.com/Akhil-0190/review-analyzer/blob/main/processing.png)
 
 ### Analysis Results
-![Results Screen](path/to/results-image.png)
+![Results Screen](https://github.com/Akhil-0190/review-analyzer/blob/main/detected.png)
 
 ---
 
